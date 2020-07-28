@@ -13,7 +13,5 @@ for image in images:
     print(image.find('a').find('img')['src'])
     print(image.find('a').find('img')['title'])
 
-# for date in dates:
-#     print(date.find('span').find('title'))
-# print(populer_area)
-
+for date in dates:
+     print(date.span['title'])
